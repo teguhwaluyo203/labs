@@ -10,4 +10,12 @@ class AdminController extends BaseController
     {
         return view('admin/admintemplate');
     }
+    public function dashboard()
+    {
+        return view('admin/dashboard');
+    }
+    public function datamaster()
+    {
+        return view('admin/datamaster');
+    }
 }

@@ -34,7 +34,9 @@ $routes->setAutoRoute(false);
 $routes->get('/', 'Home::index');
 $routes->get('login', 'LoginController::login');
 $routes->get('register', 'LoginController::register');
-$routes->get('admin', 'AdminController::index');
+$routes->get('admintemplate', 'AdminController::index');
+$routes->get('dashboard', 'AdminController::dashboard');
+$routes->get('datamaster', 'AdminController::datamaster');
 
 /*
  * --------------------------------------------------------------------
