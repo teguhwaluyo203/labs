@@ -6,45 +6,72 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header card-header-primary">
-                        <h4 class="card-title ">Data Master slkdga</h4>
-                        <p class="card-category"> Here is a subtitle for this table</p>
+                        <div class="row">
+                            <div class="col">
+                                <h4 class="card-title ">Data Barang</h4>
+                                <p class="card-category"> Here is a subtitle for this table</p>
+                            </div>
+                            <div class="col">
+                                <a href="<?= base_url('tambahdata') ?>" class="btn btn-warning pull-right" role="button">
+                                    <i class="material-icons px-3 ">add</i>
+                                    <i>TAMBAH DATA</i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
                             <table class="table">
                                 <thead class=" text-primary">
                                     <th>
-                                        ID
+                                        No
                                     </th>
                                     <th>
-                                        Name
+                                        Id Barang
                                     </th>
                                     <th>
-                                        Country
+                                        Nama Barang
                                     </th>
                                     <th>
-                                        City
+                                        Jenis Barang
                                     </th>
                                     <th>
-                                        Salary
+                                        Stok
+                                    </th>
+                                    <th>
+                                        Satuan
+                                    </th>
+                                    <th class="text-center">
+                                        Aksi
                                     </th>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>
-                                            1
+                                            2
                                         </td>
                                         <td>
-                                            Dakota Rice
+                                            Minerva Hooper
                                         </td>
                                         <td>
-                                            Niger
+                                            Curaçao
                                         </td>
                                         <td>
-                                            Oud-Turnhout
+                                            Sinaai-Waas
                                         </td>
                                         <td class="text-primary">
-                                            $36,738
+                                            $23,789
+                                        </td>
+                                        <td>
+                                            $23,789
+                                        </td>
+                                        <td class="td-actions text-center">
+                                            <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                                                <i class="material-icons">close</i>
+                                            </button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -62,6 +89,17 @@
                                         </td>
                                         <td class="text-primary">
                                             $23,789
+                                        </td>
+                                        <td>
+                                            $23,789
+                                        </td>
+                                        <td class="td-actions text-center">
+                                            <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                                                <i class="material-icons">close</i>
+                                            </button>
                                         </td>
                                     </tr>
                                     <tr>

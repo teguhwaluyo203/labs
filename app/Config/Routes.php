@@ -37,6 +37,10 @@ $routes->get('register', 'LoginController::register');
 $routes->get('admintemplate', 'AdminController::index');
 $routes->get('dashboard', 'AdminController::dashboard');
 $routes->get('datamaster', 'AdminController::datamaster');
+$routes->get('databarang', 'AdminController::databarang');
+$routes->get('jenisbarang', 'AdminController::jenisbarang');
+$routes->get('satuan', 'AdminController::satuan');
+$routes->get('tambahdata', 'AdminController::tambahdata');
 
 /*
  * --------------------------------------------------------------------
